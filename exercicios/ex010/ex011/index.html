@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir o site em diferentes dispositivos diferentes para ver como as imagens se adaptam.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="imagem de uma paisagem">
+    </picture>
+    <h1>Reproduzir Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio no HTML5.</p>
+    <audio src="midias/Toys-Are-Us.mp3" autoplay controls></audio>
+</body>
+</html>  

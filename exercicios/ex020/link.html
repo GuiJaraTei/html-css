@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: yellow;
+        }.espe{
+            background-color: rgb(255, 180, 180);
+        }
+        .espe::before{
+            content: '	⇒ ';
+
+        }
+        .espe::after{
+            content: '	⇐ ';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+    <title>link</title>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/guilherme_jara00" target="_blank" class="espe">instagram</a></li>
+        <li><a href="https://www.tiktok.com/@jara.teixeira?_r=1&_t=ZS-9AUis1UaWd3" target="_blank">tiktok</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">curso em video</a></li>
+    </ul>
+</body>
+</html>

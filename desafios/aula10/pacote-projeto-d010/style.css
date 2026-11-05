@@ -1,0 +1,183 @@
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: #84e1ad;
+    margin: 0;
+
+}
+header{
+    height: 200px;
+    background-image: linear-gradient(to bottom, #3ad07e,#1A5C38);
+}
+header > h1{
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 17px;
+    font-size: 39px;
+    color: white;
+    text-align: center;
+    font-family: "font", sans-serif;
+    font-weight: bolder;
+    
+    
+}
+header > p{
+    padding-bottom: 30px;
+    font-size: 20px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    
+
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow: inset 1px -2px 5px  1px rgba(255, 255, 255, 0.304)
+}
+nav > a:hover{
+    box-shadow: inset 1px -1px 3px  6px rgba(211, 211, 211, 0.364)
+    
+}
+
+main{
+    margin-top: -24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 530px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+main > h2{
+    padding-left: 5px;
+    color: #1A5C38;
+    font-family: android;
+    font-size: 30px;
+}
+main > h3{
+    padding-left: 5px;
+    font-size: 20px;
+    color: #1A5C38;
+    font-family: android;
+    background-color: #DAF2E5;
+}
+main > p {
+    text-align: justify;
+    text-indent: 2em;
+    padding-left: 5px;
+    padding-right:10px;
+}
+.imgs{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    width: 95%;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+}
+iframe{
+    height: 500px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    display: block;
+}
+.fundo{
+    height: 600px;
+    display: block;
+    width: 100%;
+    background-color: #1A5C38;
+}
+.saber{
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #C5EBD6;
+}
+.saber > h4{
+    font-size: 20px;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #2FA866;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.saber > p{
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: justify;
+    text-indent: 2em;
+}
+ul{
+    list-style-type: "✔";
+}
+.direita{
+    display: inline-block;
+    height: 160px;
+    width: 200px;
+}
+.esquerda{
+    display: inline-block;
+    height: 160px;
+    width: 200px;
+}
+.saber > .p{
+    padding-left: 18px;
+    padding-right: 8px;
+    text-align: justify;
+    text-indent: 2em;
+    padding-bottom: 20px;
+}
+.p1{
+    padding-left: 18px;
+    padding-right: 8px;
+    text-align: justify;
+    text-indent: 2em;
+    padding-bottom: 20px;
+}
+.p1 > strong{
+    font-weight: bolder;
+   
+}
+p > a {
+    text-decoration: none;
+    color: #1A5C38;
+    font-weight: bolder;
+}
+p > a:hover {
+    text-decoration: underline;
+}
+p > a::after {
+    content: "🔗";
+    text-decoration: none;
+    font-weight: normal;
+}
+footer{
+    color: lightgray;
+    padding-top:8px;
+    text-align: center;
+    height: 30px;
+    background-color: #1A5C38;
+}
+footer > strong{
+    font-weight: bolder;
+    color: white;
+}
